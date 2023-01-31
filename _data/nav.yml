@@ -1,0 +1,11 @@
+- title: Our Food
+  url: "/food"
+- title: History
+  url: "/history"
+- title: Gift vouchers
+  url: "https://restaurantjericho.sumupstore.com/"
+  target: "_blank"
+- title: Reservations
+  url: "https://booking.resdiary.com/widget/Standard/RestaurantJericho/37740"
+  target: "_blank"
+  feature: true
