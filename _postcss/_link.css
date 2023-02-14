@@ -64,7 +64,7 @@
     @apply
       text-sm
       font-sans
-      c-beige
+      text-current
       no-underline
       transition-all
       duration-300

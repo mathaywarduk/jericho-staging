@@ -1,3 +1,7 @@
+// *******
+// Toggler
+// *******
+
 function Toggler(el) {
   const target = document.getElementById(el.getAttribute('aria-controls'));
   const fixed = el.dataset.toggleFixed;
@@ -12,6 +16,11 @@ function Toggler(el) {
     }
   });
 }
+
+
+// *********
+// Blur Load
+// *********
 
 function updateImage(el, img, srcset) {
     // Check if source elements already exist
@@ -65,7 +74,82 @@ function BlurLoad(el) {
   });
 }
 
+
+// ************
+// Image scroll
+// ************
+function ScrollElement(el) {
+  const direction = el.dataset.scrollDirection;
+  const elWidth = el.clientWidth;
+  const elPosition = el.offsetTop;
+  const stopPosition = elPosition + window.innerHeight;
+  const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+  let newMargin = ((scrollPosition + window.innerHeight) - elPosition) / 3;
+
+  if (direction == "rtl") {
+    newMargin = 0 - newMargin;
+  }
+
+  el.style.marginLeft = newMargin + 'px';
+
+}
+
+function BindScroll(el) {
+  if (isInView(el)) {
+    ScrollElement(el);
+  }
+
+  document.addEventListener('scroll', function(e) {
+    if (isInView(el)) {
+      ScrollElement(el);
+    }
+  });
+}
+
+function hideAllTabTargets(tabs) {
+  tabs.forEach((element, index) => {
+    const target = document.querySelector(element.dataset.tabsTarget);
+    target.classList.add('hidden');
+  });
+}
+
+function BindTabs(el) {
+  const tabsNav = el.querySelector("[data-tabs-nav]");
+  const tabs = tabsNav.querySelectorAll("button");
+  const tabsTitles = el.querySelectorAll("[data-tabs-title]");
+
+  tabsNav.classList.remove("hidden");
+  tabsTitles.forEach((element) => {
+      element.classList.add("hidden");
+  });
+
+  tabs.forEach((element, index) => {
+    const target = document.querySelector(element.dataset.tabsTarget);
+
+    if (index != 0) {
+      target.classList.add('hidden');
+    } else {
+      element.classList.add("active");
+    }
+
+    element.addEventListener("click", function() {
+      hideAllTabTargets(tabs);
+      target.classList.remove('hidden');
+      tabs.forEach((element) => {
+        element.classList.remove('active');
+      })
+      this.classList.add('active');
+    });
+
+  });
+
+}
+
+
 window.addEventListener('DOMContentLoaded', (event) => {
   [...document.querySelectorAll("[data-toggle]")].map((el) => Toggler(el));
   [...document.querySelectorAll("[data-blur-load]")].map((el) => BlurLoad(el));
+  [...document.querySelectorAll("[data-scroll-int]")].map((el) => BindScroll(el));
+  [...document.querySelectorAll("[data-tabs]")].map((el) => BindTabs(el));
 });

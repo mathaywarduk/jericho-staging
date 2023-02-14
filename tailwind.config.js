@@ -21,6 +21,7 @@ module.exports = {
     },
     screens: {
       sm: "375px",
+      awks: "484px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
@@ -34,11 +35,26 @@ module.exports = {
       maxWidth: {
         48: "12rem",
         75: "18.75rem",
+        "half-container": "80rem", 
         "container": "160rem", 
+        "75vw": "75vw",
+        "1/2": "50%",
+        "7/12": "58.3333%",
+        "2/3": "66.6666667%",
+      },
+      maxHeight: {
+        "75vh": "75vh",
       },
       height: {
         "screen-plus": "110vh",
-      }
+      },
+      inset: {
+        "1/20": "5%",
+      },
+      aspectRatio: {
+        '3/4': '3 / 4',
+        '4/3': '4 / 3',
+      },
     },
   },
   variants: {
