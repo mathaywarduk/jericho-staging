@@ -1,4 +1,4 @@
-- title: Sample Tasting Menu
+- title: Tasting Menu
   cost: £90 per person
   drinks: Paired Wines £60
   courses:
@@ -23,11 +23,11 @@
     - description: "Jake’s Mums Honey, Brioche, Tomato, Skyr, Bee Pollen"
     - description: "Maize Creme Brulle, Black Olive, Lime"
     - description: "Fresh Cheese, Rosehip, Pickle Bread, Ferments"
-- title: Sample Vegetarian Menu
+- title: Vegetarian Tasting Menu
   cost: £90 per person
   drinks: Paired Wines £60
   courses:
-    - description: "Pork Skin, Fermented Homey Skyr, Hawthorne, Apple"
+    - description: "Fork Skin, Fermented Homey Skyr, Hawthorne, Apple"
     - description: "Salt Beef, Garum, Ramson Capers,"
     - description: "Tongue Pastrami, Sorrely Mayo"
     - description: "Ceps, Chicken Liver Parfait, Blackcurrant"
@@ -48,11 +48,11 @@
     - description: "Jake’s Mums Honey, Brioche, Tomato, Skyr, Bee Pollen"
     - description: "Maize Creme Brulle, Black Olive, Lime"
     - description: "Fresh Cheese, Rosehip, Pickle Bread, Ferments"
-- title: Sample Pescetarian Menu
+- title: Pescetarian Tasting Menu
   cost: £90 per person
   drinks: Paired Wines £60
   courses:
-    - description: "Pork Skin, Fermented Homey Skyr, Hawthorne, Apple"
+    - description: "Fish Skin, Fermented Homey Skyr, Hawthorne, Apple"
     - description: "Salt Beef, Garum, Ramson Capers,"
     - description: "Tongue Pastrami, Sorrely Mayo"
     - description: "Ceps, Chicken Liver Parfait, Blackcurrant"
