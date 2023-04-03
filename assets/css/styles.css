@@ -648,10 +648,6 @@ video {
   height: 145px;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-full {
   width: 100%;
 }
