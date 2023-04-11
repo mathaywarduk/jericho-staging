@@ -827,6 +827,10 @@ video {
   text-transform: uppercase;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-tight {
   line-height: 1.25;
 }
@@ -859,6 +863,10 @@ video {
 
 .c-grey-dark {
   color: var(--grey-dark);
+}
+
+.c-orange-dark {
+  color: var(--orange-dark);
 }
 
 .b-orange {
@@ -942,9 +950,11 @@ a.link-small:focus {
 
 :root {
   --beige: #efe6d4;
+  --green: #487059;
   --green-dark: #151917;
   --grey-dark: #232C27;
   --orange: #D9A775;
+  --orange-dark: #905C27;
 }
 
 .b-green-dark--grad {
