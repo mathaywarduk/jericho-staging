@@ -10,7 +10,7 @@ hero:
     align: left
 body:
     feature:
-        text: "Inspired by farm Jericho, the land that raised him and the generations that went before, Chef Patron, Rich Stevens, has created a distinctive 12-course tasting menu with wine pairings chosen by our dedicated sommelier."
+        text: "Inspired by Jericho, the land that raised him and the generations that went before, Chef Patron, Rich Stevens, has created a distinctive 12-course tasting menu with wine pairings."
         images:
             - url: Jericho_0019.jpg
               alt: "Cabbage leaf from the Jericho kitchen garden"
@@ -19,10 +19,10 @@ body:
               alt: "Chef Patron Richard Stevens in the Jericho kitchen garden"
               orientation: portrait
     textBlocks:
-        - text: "Every dish is exceptionally crafted to take patrons on a soulful exploration through Jericho’s distinctive terroir and very best homegrown ingredients; often handpicked moments before serving for remarkable freshness and flavour.
+        - text: "Our tasting menu is based on our love of feeding people in the beautiful surroundings we are lucky enough to call home. 
 
 
-            Wonderfully simple and honest. Playfully complex and imaginative. Beautifully presented on tableware made by local artists, complemented by exceptional service."
+Wonderfully simple and honest. Playfully complex and imaginative. Beautifully presented on tableware made by local artists, complemented by relaxed service."
           images:
             - url: Jericho_0020.jpg
               alt: "Tomatoes, anchovies and tomato water"

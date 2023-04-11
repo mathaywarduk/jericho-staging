@@ -1,8 +1,10 @@
 :root{
     --beige: #efe6d4;
+    --green: #487059;
     --green-dark: #151917;
     --grey-dark: #232C27;
     --orange: #D9A775;
+    --orange-dark: #905C27;
 }
 
 @layer utilities {
@@ -16,6 +18,14 @@
 
   .br-beige {
     border-color: var(--beige);
+  }
+
+  .b-green {
+    background-color: var(--green);
+  }
+
+  .c-green {
+    color: var(--green);
   }
 
   .b-green-dark {
@@ -36,6 +46,14 @@
 
   .c-orange {
     color: var(--orange);
+  }
+
+  .b-orange-dark {
+    background-color: var(--orange-dark);
+  }
+
+  .c-orange-dark {
+    color: var(--orange-dark);
   }
 
   .b-orange {
