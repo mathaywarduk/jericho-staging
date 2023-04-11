@@ -2133,6 +2133,9 @@ body {
   .xl\:max-w-2\/3 {
     max-width: 66.6666667%;
   }
+  .xl\:max-w-7\/12 {
+    max-width: 58.3333%;
+  }
   .xl\:items-center {
     align-items: center;
   }
