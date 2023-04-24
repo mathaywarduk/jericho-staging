@@ -4,7 +4,7 @@ permalink: /journal/:title
 plugins:
   - jekyll-postcss
   - jekyll-minifier
-image_base:  https://restaurantjericho.imgix.net/
+image_base:  https://jericho.imgix.net/
 exclude:
   - package-lock.json
   - postcss.config.js
