@@ -526,6 +526,10 @@ video {
   order: 1;
 }
 
+.order-3 {
+  order: 3;
+}
+
 .col-span-5 {
   grid-column: span 5/span 5;
 }
@@ -1860,6 +1864,12 @@ body {
   .lg\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 }
 @media (min-width: 1024px) {
