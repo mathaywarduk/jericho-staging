@@ -2,15 +2,15 @@
 layout: page
 title:  "History"
 hero:
-    text: "Continuing the legacy of food, inspired by generations before us"
+    text: "Inherited land, the understanding of how to grow and cook food and a warm welcome to our table."
     image:
         url: Jericho_0015.jpg
-        alt: "Chef Patron of Restaurant Jericho, Richard Stevens"
+        alt: "Restaurant Jericho, Rich Stevens"
         ar: "3:4"
     align: right
 body:
     feature:
-        text: "Inspired by Jericho, the land that raised him and the generations that went before, Chef Patron, Rich Stevens, has created a distinctive 12-course tasting menu with wine pairings selected by his partner, Grace."
+        text: "A farm upbringing instils practicality and passion, a stubborn resolve and the creativity to use what we have got. A 200 year history farming Jericho inspired the restaurant and drives our passion for humble and honest hospitality."
         images:
             - url: Jericho_Farm.jpg
               alt: "A tractor at Jericho Farm"
@@ -18,7 +18,11 @@ body:
         align: right
     textBlocks:
         - heading: "Restaurant Jericho"
-          text: "Our restaurant was born out of our passion for carrying on what has been done for years before us. Growing food has been a vocation for hundreds of years in the Stevens family, providing high welfare meat and quality vegetables to the community is simply what they did as farmers."
+          text: "Self taught, Rich and Grace have created a beautiful space using materials salvaged from Jericho Farm.
+Having learnt the industry over the last 7 years they opened Jericho in 2022.
+
+
+Committed to individuality, they give a warm and honest welcome to every guest."
           images:
             - url: Jericho_001.jpg
               alt: "Restaurant Jericho internal"
@@ -28,7 +32,7 @@ body:
               orientation: portrait
 seo:
     title: "History"
-    description: "Inspired by Jericho, the land that raised him and the generations that went before, Chef Patron, Rich Stevens, has created a distinctive 12-course tasting menu with wine pairings selected by his partner, Grace."
+    description: "A farm upbringing instils practicality and passion, a stubborn resolve and the creativity to use what we have got. A 200 year history farming Jericho inspired the restaurant and drives our passion for humble and honest hospitality."
     image:
         url: Jericho_Farm.jpg
         alt: "A tractor at Jericho Farm"

@@ -1,37 +1,41 @@
 - title: Tasting Menu
   cost: "£90 per person
 
+  Paired wines: £60
+
   Kitchen Bench: £110 per person"
-  drinks: "Paired drinks: £60"
   courses:
-    - description: "Skrei Cod Skin, Raw Sour Cream, Lumpfish Roe Jericho Charcuterie"
-    - description: "Blanc De Noirs, Devaux, Champagne"
+    - description: "Pig Skin, Fennel, Whey Caramel"
+    - description: "Jericho Charcuterie"
+    - description: "Balfour ‘the White’ 2021, Kent"
       type: drink
       space: true
-    - description: "Beauvale Croustade"
-    - description: "Our Bread, Raw Butter, Alliums Monkfish, Rhubarb, Pomegranate, Ginger"
-    - description: "Peter & Ulrich Dry Riesling, Mosel, 2021"
+    - description: "Potato Farl, Sour Cream"
+    - description: "Beauvale Croustade, Apple, Sorrel"
+    - description: "Lamb Heart, Maple, Chimichurri"
+    - description: "Planeta 'cometa' 2021, Sicily"
       type: drink
       space: true
-    - description: "Line Caught Mackerel, Ya Pear, Smoked Date Skrei Cod, Miso, Garum Butter"
-    - description: "Rocklin Ranch Chardonnay, Monterey, 2020"
+    - description: "Our Bread, Raw Butter, Radish, Gochujang"
+    - description: "Oyster, Strawberry, Buttermilk"
+    - description: "Demorgenzon 'dmz' Chenin Blanc, Stellenbosch, 2021"
       type: drink
       space: true
-    - description: "Carrot, Crab, Kaffir Lime"
-    - description: "Asparagus, Pickled Egg, Onion Cream"
-    - description: "Maison Sassy Cidre, Normandy"
+    - description: "Carrot, Skyr, Elderflower"
+    - description: "Pea, Corn, Mint"
+    - description: "Famille Hugel ‘classic’ Riesling, Alsace, 2019"
       type: drink
       space: true
-    - description: "Butchery Sausage, Lardo, Charcuterie Sauce Smoked Eel, Potato, Sorrel"
-    - description: "Mendel Selection Malbec, Mendoza, 2020"
+    - description: "Mackerel, Gooseberry, Green Strawberry"
+    - description: "Pigs Head, Apple, Hot Sauce"
+    - description: "Thymiopoulos Xinomavro Greece, 2019"
       type: drink
       space: true
-    - description: "Lamb Heart, Maple, Nettle"
-    - description: "Onglet, Miso Hollandaise, Tarragon, Wild Garlic"
-    - description: "Domaines Schlumberger 'les Princes Abbés' Gewürztraminer 2020, Alsace"
+    - description: "1 Year Aged Beef, Gompa, Sugar Cured Egg Yolk"
+    - description: "Jerk, Lambs Liver, Date"
+    - description: "Silage Ice Cream"
+    - description: "Kuhlmann-platz 'cuvée Prestige' Gewürztraminer, Alsace, 2019"
       type: drink
       space: true
-    - description: "Blueberry, Eucalyptus, Sour Cream, Lemon"
-      space: true
-    - description: "S'more"
-    - description: "Beauvale Rarebit"
+    - description: "Raw Creme Fraiche, Berries, Rocket"
+    - description: "Langar Honey, Raw Cream, Tamari"
