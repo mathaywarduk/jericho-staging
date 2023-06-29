@@ -5,6 +5,7 @@ layout: default
 {% assign hero = page.hero %}
 {% assign feature = page.body.feature %}
 {% assign textBlocks = page.body.textBlocks %}
+{% assign imagesBlock = page.body.imagesBlock %}
 
 {% comment %}
   {% if hero %}
@@ -95,6 +96,27 @@ layout: default
 <!-- END: Feature -->
 {% endif %}
 
+<!-- Start: Images -->
+{% if imagesBlock %}
+    <div class="order-1 md:order-2 overflow-hidden my-12 lg:my-48">
+      <div class="flex gap-4 md:gap-16 lg:gap-32 justify-start items-baseline" data-scroll-int data-scroll-direction="rtl">
+        {% for image in imagesBlock.images %}
+        {% if image.ar == '4:6' %}
+          {% assign width = 145 %}
+          {% assign height = 218 %}
+          {% assign blockClass = "w-[145px] h-[218px] sm:w-[190px] sm:h-[285px] md:w-[340px] md:h-[510px] lg:w-[536px] lg:h-[805px] shrink-0 object-cover" %}
+        {% else %}
+          {% assign width = 218 %}
+          {% assign height = 145 %}
+          {% assign blockClass = "h-[145px] w-[218px] sm:h-[190px] sm:w-[285px] md:h-[340px] md:w-[510px] lg:h-[536px] lg:w-[805px] shrink-0" %}
+        {% endif %}
+          {% include image.html url=image.url alt=image.alt ar=image.ar fit="crop" lazy="true" width=width height=height block_classes=blockClass classes="w-full h-full object-cover" %}
+        {% endfor %}
+      </div>
+    </div>
+{% endif %}
+<!-- END: Images -->
+
 {% if textBlocks %}
 <!-- START: Text Blocks -->
 {% for block in textBlocks %}
@@ -105,7 +127,13 @@ layout: default
   {% capture imageOrder %}
     {% cycle second: "lg:order-3 lg:mt-12", "lg:order-1 lg:mb-12" %}
   {% endcapture %}
-  <section class="my-12 lg:my-24 overflow-hidden flex flex-wrap lg:flex-nowrap items-end lg:items-center justify-between gap-5 xl:gap-12">
+
+  {% if block.flip %}
+    {% assign imagePosition = imagePosition | prepend: " order-2" %}
+    {% assign imageOrder = imageOrder | prepend: " order-3" %}
+  {% endif %}
+
+  <section class="my-12 lg:my-24 overflow-hidden flex flex-wrap lg:flex-nowrap  justify-between gap-5 xl:gap-12 {% if block.flip %} items-center {% else %} items-end lg:items-center {% endif %}">
     {% for image in block.images %}
         {% if image.orientation == 'landscape' %}
           {% assign imageWidth = 700 %}
@@ -120,7 +148,7 @@ layout: default
         {% include image.html url=image.url alt=image.alt fit="crop" lazy="true" width=imageWidth height=imageHeight  block_classes=blockClasses classes="" %}
       {% endfor %}
 
-    <div class="container lg:order-2">
+    <div class="container order-1 lg:order-2">
       {% if block.heading %}
         <h2 class="text-lg awks:text-xl md:text-2xl font-serif font-thin leading-tight tracking-wide mb-8 md:mb-12">{{ block.heading }}</h2>
       {% endif %}

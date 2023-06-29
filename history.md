@@ -12,7 +12,7 @@ body:
     feature:
         text: "A farm upbringing instils practicality and passion, a stubborn resolve and the creativity to use what we have got. A 200 year history farming Jericho inspired the restaurant and drives our passion for humble and honest hospitality."
         images:
-            - url: Jericho_Farm.jpg
+            - url: Jericho-History-007.jpg
               alt: "A tractor at Jericho Farm"
               orientation: landscape
         align: right
@@ -30,6 +30,18 @@ Committed to individuality, they give a warm and honest welcome to every guest."
             - url: Jericho_0018.jpg
               alt: "Tending to the kitchen garden"
               orientation: portrait
+          flip: true
+    imagesBlock:
+        images:
+            - url: Jericho-History-006.jpg
+              alt: "Rich and his dad at Farm Jericho"
+              ar: "6:4"
+            - url: Jericho-History-001.jpg
+              alt: "Farm Jericho"
+              ar: "6:4"
+            - url: Jericho-History-004.jpg
+              alt: "Rich at Farm Jericho"
+              ar: "6:4"
 seo:
     title: "History"
     description: "A farm upbringing instils practicality and passion, a stubborn resolve and the creativity to use what we have got. A 200 year history farming Jericho inspired the restaurant and drives our passion for humble and honest hospitality."
