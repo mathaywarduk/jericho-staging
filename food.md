@@ -19,7 +19,7 @@ body:
               alt: "Chef Richard Stevens in the Jericho kitchen garden"
               orientation: portrait
     textBlocks:
-        - text: "Our Twelve Course Tasting menu offers a food experience using food grown in our kitchen garden and proteins from our local&nbsp;farms.
+        - text: "Our Twelve Course Tasting menu offers a food experience.
 
 
             Expect a relaxed evening, on our family farm enjoying great food, music and delicious&nbsp;wine. 

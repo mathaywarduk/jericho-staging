@@ -8,7 +8,7 @@ hero:
         alt: "A table setting at Restaurant Jericho"
 body:
     feature:
-        text: "Rooted by working the land, Restaurant Jericho shares a dining experience at our farm inspired by humble ingredients and the most honest way to cook, fire."
+        text: "Rooted by working the land, Restaurant Jericho creates a dining experience inspired by humble ingredients and the most honest way to cook, fire."
         link:
             text: "Our history"
             path: "/history"
