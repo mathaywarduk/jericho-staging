@@ -31,7 +31,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
   tab-size: 4; /* 3 */
-  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: open-sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
 }
 
@@ -799,12 +799,12 @@ video {
   text-indent: -0.5rem;
 }
 
-.font-serif {
-  font-family: Roboto Slab, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.font-headings {
+  font-family: sole-serif-titling-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-sans {
-  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-type {
+  font-family: sole-serif-small-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-lg {
@@ -819,16 +819,12 @@ video {
   font-size: 1.125rem;
 }
 
-.font-thin {
-  font-weight: 100;
+.font-extralight {
+  font-weight: 200;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .uppercase {
@@ -899,28 +895,41 @@ video {
     padding-right: 3rem;
   }
 }
+.font-extralight {
+  font-variation-settings: "opsz" 1000, "wght" 200;
+}
+
+.font-semibold {
+  font-variation-settings: "opsz" 1000, "wght" 600;
+}
+
 a.link {
-  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: sole-serif-small-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.375rem;
-  text-transform: uppercase;
-  font-style: italic;
   text-decoration-line: none;
   transition-property: all;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--beige);
-  background-image: linear-gradient(transparent, transparent), linear-gradient(var(--beige), var(--beige));
-  background-size: 0 2px, 0 2px;
-  background-position: 0 100%, 0 100%;
+  color: var(--orange);
+  /*background-image: linear-gradient(transparent, transparent),
+    linear-gradient(var(--orange), var(--orange));
+      background-size: 0 2px, 100% 2px;
+      background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;*/
+  background-image: linear-gradient(90deg, var(--beige) 0%, var(--beige) 50%, var(--orange) 50%, var(--orange) 100%);
+  background-origin: padding-box;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
+  background-size: 200% 2px;
 }
 
 a.link:hover,
 a.link:focus {
-  color: var(--orange);
-  background-image: linear-gradient(transparent, transparent), linear-gradient(var(--orange), var(--orange));
-  background-size: 0 2px, 100% 2px;
-  background-position: 100% 100%, 0 100%;
+  color: var(--beige);
+  /*background-image: linear-gradient(transparent, transparent),
+      background-size: 0 2px, 100% 2px;
+      background-position: 100% 100%, 0 100%;*/
+  background-position: 0% 95%;
 }
 
 a.link--dark {
@@ -935,7 +944,7 @@ a.link--dark:focus {
 }
 
 a.link-small {
-  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: open-sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   color: currentColor;
   text-decoration-line: none;
@@ -1076,10 +1085,12 @@ a.link-small:focus {
   }
 }
 .nav-item {
+  font-family: sole-serif-small-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.375rem;
-  font-weight: 300;
+  font-weight: 200;
   text-transform: uppercase;
   color: var(--beige);
+  font-variation-settings: "opsz" 1000, "wght" 200;
 }
 
 .nav-item a {
@@ -1167,10 +1178,13 @@ a.link-small:focus {
 
 .mobile-nav-item {
   position: relative;
+  font-family: sole-serif-small-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 2rem;
+  font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--beige);
+  font-variation-settings: "opsz" 1000, "wght" 100;
 }
 .mobile-nav-item:after {
   content: "";
@@ -1407,39 +1421,41 @@ a.link-small:focus {
 h1,
 .h1 {
   margin-bottom: 2rem;
-  font-family: Roboto Slab, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: sole-serif-titling-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.6875rem;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.25;
   letter-spacing: 0.025em;
+  font-variation-settings: "opsz" 1000, "wght" 200;
 }
 
 @media (min-width: 484px) {
   h1,
   .h1 {
-    font-size: 2rem;
+    font-size: 3.125rem;
   }
 }
 @media (min-width: 768px) {
   h1,
   .h1 {
     margin-bottom: 3rem;
-    font-size: 3.125rem;
+    font-size: 3.75rem;
   }
 }
 @media (min-width: 1280px) {
   h1,
   .h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 }
 h2,
 .h2 {
   margin-bottom: 2rem;
-  font-family: Roboto Slab, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: sole-serif-titling-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.6875rem;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 0.025em;
+  font-variation-settings: "opsz" 1000, "wght" 200;
 }
 
 @media (min-width: 768px) {
@@ -1451,9 +1467,9 @@ h2,
 }
 p {
   margin-bottom: 3rem;
-  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.375rem;
-  font-weight: 300;
+  font-weight: 200;
+  font-variation-settings: "opsz" 1000, "wght" 200;
 }
 
 @media (min-width: 768px) {
@@ -1462,9 +1478,10 @@ p {
   }
 }
 p.p-large {
-  font-family: Roboto Slab, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: sole-serif-small-variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.6875rem;
-  font-weight: 100;
+  font-weight: 200;
+  font-variation-settings: "opsz" 1000, "wght" 200;
 }
 
 @media (min-width: 1280px) {
@@ -1559,6 +1576,7 @@ p.p-large {
 .tab-button {
   font-weight: 600;
   text-transform: uppercase;
+  font-variation-settings: "opsz" 1000, "wght" 600;
   border-bottom: 2px solid transparent;
 }
 .tab-button.active {
@@ -1566,9 +1584,11 @@ p.p-large {
 }
 
 body {
-  font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: open-sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
   color: var(--beige);
   background-color: var(--green-dark);
+  font-variation-settings: "opsz" 1000, "wght" 300;
 }
 
 .hover\:opacity-80:hover {
