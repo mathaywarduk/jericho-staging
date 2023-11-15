@@ -23,13 +23,16 @@ body:
             text: "Read more"
             path: "/food"
         images:
-            - url: Jericho_003.jpg
+            - url: Jericho-Timmy-11.jpeg
               alt: "Restaurant Jericho exterior"
-              ar: "6:4"
+              ar: "4:6"
             - url: Jericho_0012.jpg
               alt: "Restaurant Jericho exterior"
               ar: "6:4"
-            - url: Jericho_005.jpg
+            - url: Jericho-Timmy-14.jpeg
+              alt: "Restaurant Jericho exterior"
+              ar: "4:6"
+            - url: Jericho-Timmy-21.jpeg
               alt: "Chef Richard Stevens in the kitchen garden"
               ar: "4:6"
     call-to-action:
