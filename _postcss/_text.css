@@ -2,11 +2,11 @@ h1,
 .h1 {
   @apply
     text-lg
-    awks:text-xl
-    md:text-2xl
-    xl:text-4xl
-    font-serif
-    font-thin
+    awks:text-2xl
+    md:text-3xl
+    xl:text-5xl
+    font-headings
+    font-extralight
     leading-tight
     tracking-wide
     mb-8
@@ -19,8 +19,8 @@ h2,
   @apply
     text-lg
     md:text-3xl
-    font-serif
-    font-light
+    font-headings
+    font-extralight
     tracking-wide
     mb-8
     md:mb-12
@@ -33,8 +33,7 @@ p {
   @apply
     text-md
     md:text-lg
-    font-light
-    font-sans
+    font-extralight
     mb-12
   ;
 }
@@ -43,8 +42,8 @@ p.p-large {
   @apply
     text-lg
     xl:text-xl
-    font-thin
-    font-serif
+    font-extralight
+    font-type
   ;
 }
 

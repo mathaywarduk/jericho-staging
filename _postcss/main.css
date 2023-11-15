@@ -3,6 +3,7 @@
 @import "_container";
 @import "_home";
 @import "_hero";
+@import "_font-variants";
 @import "_text";
 @import "_link";
 @import "_background";
@@ -15,5 +16,6 @@ body {
     b-green-dark
     c-beige
     font-sans
+    font-light
   ;
 }

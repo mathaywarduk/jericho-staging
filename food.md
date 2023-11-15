@@ -2,11 +2,11 @@
 layout: page
 title:  "Our Food"
 hero:
-    text: "A deep connection to our land expressed through food."
+    text: "A deep connection to our&nbsp;land expressed through food."
     image:
-        url: Jericho_0014.jpg
+        url: Jericho-Timmy-23.jpeg
         alt: "Halibut, Kohlrabi and fish roe"
-        ar: "4:3"
+        ar: "3:4"
     align: left
 body:
     feature:
@@ -35,10 +35,10 @@ body:
 
             We do not Cater to Pescatarians, Vegetarians, Vegans or&nbsp;dislikes."
           images:
-            - url: Jericho_0020.jpg
+            - url: Jericho_0029.jpg
               alt: "Tomatoes, anchovies and tomato water"
               orientation: landscape
-            - url: Jericho_0016.jpg
+            - url: Jericho-Timmy-24.jpeg
               alt: "Chef Richard Stevens in the Jericho kitchen garden"
               orientation: portrait
           link:

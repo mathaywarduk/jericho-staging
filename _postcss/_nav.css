@@ -14,7 +14,8 @@
     text-md
     uppercase
     c-beige
-    font-light
+    font-type
+    font-extralight
   ;
 }
 
@@ -92,6 +93,8 @@
     uppercase
     c-beige
     relative
+    font-type
+    font-thin
   ;
 
   &:after {

@@ -1,31 +1,35 @@
 @layer utilities {
   a.link {
   @apply
-    uppercase
-    italic
     text-md
-    font-sans
-    c-beige
+    font-type
+    c-orange
     no-underline
     transition-all
-    duration-300
+    duration-500
     ease-in-out
   ;
 
-    background-image: linear-gradient(transparent, transparent),
-      linear-gradient(var(--beige), var(--beige));
-    background-size: 0 2px, 0 2px;
-    background-position: 0 100%, 0 100%;
+    /*background-image: linear-gradient(transparent, transparent),
+      linear-gradient(var(--orange), var(--orange));
+        background-size: 0 2px, 100% 2px;
+        background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;*/
+
+    background-image: linear-gradient(90deg,var(--beige) 0%,var(--beige) 50%,var(--orange) 50%,var(--orange) 100%);
+    background-origin: padding-box;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
+    background-size: 200% 2px;
   }
 
   a.link:hover,
   a.link:focus {
-    @apply c-orange;
-    background-image: linear-gradient(transparent, transparent),
-      linear-gradient(var(--orange), var(--orange));
+    @apply c-beige;
+    /*background-image: linear-gradient(transparent, transparent),
         background-size: 0 2px, 100% 2px;
-        background-position: 100% 100%, 0 100%;
+        background-position: 100% 100%, 0 100%;*/
+        background-position: 0% 95%;
   }
 
 

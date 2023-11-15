@@ -18,6 +18,7 @@ module.exports = {
       "2xl": "3.125rem", // 50px
       "3xl": "3.75rem", // 60px
       "4xl": "5rem", // 80px
+      "5xl": "6rem", // 96px
     },
     screens: {
       sm: "375px",
@@ -29,8 +30,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        serif: ["Roboto Slab", ...defaultTheme.fontFamily.serif],
-        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+        sans: ["open-sans", ...defaultTheme.fontFamily.sans],
+        headings: ["sole-serif-titling-variable", ...defaultTheme.fontFamily.serif],
+        type: ["sole-serif-small-variable", ...defaultTheme.fontFamily.serif],
       },
       maxWidth: {
         48: "12rem",
