@@ -5,9 +5,9 @@
 {% endif %}
 
 
-<picture class="{{ include.block_classes }}" data-blur-load>
+<picture class="{{ include.block_classes }}">
   <img src="{{ site.image_base }}{{ include.url }}?w=10&q=30{{opts}}" alt="{{ include.alt }}" {% if include.lazy == "true" %}loading="lazy"{% endif %} sizes="{% if sizes %}{{ sizes }}{% else %}(max-width: 2560px) 100vw, 2560px{% endif %}" width="{{ include.width }}" height="{{ include.height }}" class="{{ include.classes }}"
-    data-srcset="{{ site.image_base }}{{ include.url }}?w=2560{{opts}}{% if include.lgar %}&ar={{ include.lgar }}{% elsif include.ar %}&ar={{ include.ar }}{% endif %} 2560w,
+    srcset="{{ site.image_base }}{{ include.url }}?w=2560{{opts}}{% if include.lgar %}&ar={{ include.lgar }}{% elsif include.ar %}&ar={{ include.ar }}{% endif %} 2560w,
     {{ site.image_base }}{{ include.url }}?w=1920{{opts}}{% if include.lgar %}&ar={{ include.lgar }}{% elsif include.ar %}&ar={{ include.ar }}{% endif %} 1920w,
     {{ site.image_base }}{{ include.url }}?w=1600{{opts}}{% if include.lgar %}&ar={{ include.lgar }}{% elsif include.ar %}&ar={{ include.ar }}{% endif %} 1600w,
     {{ site.image_base }}{{ include.url }}?w=1280{{opts}}{% if include.lgar %}&ar={{ include.lgar }}{% elsif include.ar %}&ar={{ include.ar }}{% endif %} 1280w,

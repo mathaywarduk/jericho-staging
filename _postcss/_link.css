@@ -95,7 +95,7 @@
 
 
 
-/*p a {
+p a {
   @apply
     underline
     relative
@@ -110,7 +110,7 @@
     @apply c-orange;
   }
 }
-
+/*
 .link--pretty {
   @apply
     no-underline
