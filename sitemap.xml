@@ -1,11 +1,26 @@
----
-layout: null
----
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>{{ site.url }}</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <loc>https://staging.restaurantjericho.com</loc>
+      <lastmod>2025-02-13T15:43:04+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://staging.restaurantjericho.com/food</loc>
+      <lastmod>2025-02-13T15:43:04+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://staging.restaurantjericho.com/history</loc>
+      <lastmod>2025-02-13T15:43:04+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://staging.restaurantjericho.com/terms</loc>
+      <lastmod>2025-02-13T15:43:04+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.1</priority>
     </url>
 </urlset>
