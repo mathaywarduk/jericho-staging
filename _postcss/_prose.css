@@ -1,0 +1,75 @@
+.prose h2 {
+  @apply
+    text-md
+    md:text-xl
+    leading-tight
+    max-w-prose
+  ;
+}
+
+.prose h3 {
+  @apply
+    text-base
+    md:text-lg
+    max-w-prose
+  ;
+}
+
+.prose h4 {
+  @apply
+    text-sm
+    md:text-md
+    max-w-prose
+  ;
+}
+
+.prose h2 + h3,
+.prose h3 + h4 {
+  @apply
+    -mt-4
+    md:-mt-8;
+  ;
+}
+
+.prose p {
+  @apply
+    text-base
+    max-w-prose
+  ;
+}
+
+.prose h2 + p,
+.prose h3 + p,
+.prose h4 + p {
+  @apply
+    -mt-4
+    md:-mt-8;
+  ;
+}
+
+.prose blockquote {
+ @apply
+    pl-4
+    border-l-2
+    br-orange
+    mb-12
+  ; 
+}
+
+.prose blockquote p {
+  @apply
+    text-lg
+    font-headings
+    mb-4
+  ;
+}
+
+.prose blockquote cite {
+  @apply
+    text-sm
+    font-sans
+    uppercase
+    font-normal
+    not-italic
+  ;
+}

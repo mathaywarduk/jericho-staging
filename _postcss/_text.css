@@ -27,6 +27,24 @@ h2,
   ;
 }
 
+h3,
+.h3 {
+  @apply
+    text-md
+    md:text-xl
+    max-w-prose
+  ;
+}
+
+h4,
+.h4 {
+  @apply
+    text-base
+    md:text-lg
+    max-w-prose
+  ;
+}
+
 
 
 p {

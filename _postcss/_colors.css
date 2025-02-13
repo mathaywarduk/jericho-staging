@@ -20,6 +20,14 @@
     border-color: var(--beige);
   }
 
+  .br-orange {
+    border-color: var(--orange);
+  }
+
+  .br-white {
+    border-color: white;
+  }
+
   .b-green {
     background-color: var(--green);
   }

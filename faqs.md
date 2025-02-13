@@ -11,11 +11,11 @@ seo:
 
 See <a href="https://booking.resdiary.com/widget/Standard/RestaurantJericho/37740" target="_blank">reservations</a> for the most up-to-date details.
 
-Our evening tasting menu is available Friday to Saturday at 7pm. Dinner usually finishes around 10.30pm so we would advise booking taxis between 10.30pm and 11pm.
+Our evening tasting menu is available **Thursday to Saturday at 7pm**. The Bar is open from 6.30pm for Pre Dinner drinks.
 
-Our WIP evenings are on Thursdays only at 7pm, dinner usually finishes at 9.30pm.
+(We would advise booking taxis between 10.45pm and 11pm.)
 
-Our bar is open Friday and Saturday from 6.30pm.
+Our WIP evenings are on **Wednesday Nights ONLY at 7pm**, dinner usually finishes at 9.30pm. The Bar is not open on a WIP Evening.
 
 
 ## Do you have parking?
@@ -41,6 +41,11 @@ If you are making a group booking, it is your responsibility to make us aware of
 
 ## Can I cancel or modify my booking?
 
-Yes, as long as we have at least 72 hours’ notice. Your deposit in non-refundable and non-transferable. If there are any cancellations or amendments to bookings (in part or whole) with less than 72 hours notice, a full £105pp dinner fee will be charged (Your deposit will be included in this amount). This charge reflects the cost of food, drink and staffing incurred with short-notice changes.
+Yes, as long as we have at least 72 hours’ notice. Your £50 deposit is **non-refundable**. If there are any cancellations or amendments to bookings (in part or whole) with less than 72 hours notice, a full £120pp dinner fee will be charged (Your deposit will be included in this amount).
+This charge reflects the cost of food, drink and staffing incurred with short-notice changes.
 
-Our restaurant is an intimate setting; the largest table we can accommodate for is 6 guests, should you wish to book for 4 or more people, we will need 14 days notice for cancellation, otherwise a full £105pp dinner fee will be charged. (Your deposit will be included in this amount)
+Please see our [Terms and Conditions](/terms).
+
+Our restaurant is an intimate setting; the largest table we can accommodate for is 6 guests.
+
+If you would like to book a larger table, please email [info@restaurantjericho.com](mailto:info@restaurantjericho.com)

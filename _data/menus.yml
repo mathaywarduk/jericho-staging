@@ -1,51 +1,49 @@
 - title: Tasting Menu
-  cost: "£105 per person
+  cost: "£120 per person
 
-  Paired wines: £70
+  Paired wines: £80
 
-  Kitchen Bench: £120 per person"
+  Kitchen Bench: £140 per person"
   courses:
-    - description: "Pig Skin, Black Garlic & Apple"
+    - description: "Lincolnshire Poacher, Bramley"
     - description: "Jericho Charcuterie"
       space: true
-    - description: "Garden Broth"
-    - description: "Vismino Kisi Artana, Georgia"
+    - description: "La Cave Se Rebiffe, Pet Nat, Frantz Saumon, Loire, 2023"
       type: drink
+    - description: "Carrot, Sour Cream"
+    - description: "Game Bird Liver"
+    - description: "Partridge Leg, Rhubarb"
+    - description: "Pancetta, Black Garlic"
+    - description: "Liver and Onion"
       space: true
-    - description: "Hornbuckle Cheese & Our Apples"
-    - description: "Potato & Mussel"
-    - description: "Lamb Chorizo & Smoked Date"
-    - description: "Mutton & Cherry"
-    - description: "Wild Boar, Eel & Marmite"
-    - description: "Partridge Leg"
-    - description: "Halfpenny Green Penny Black, England"
+    - description: "&ldquo;Marius Et Simone&rdquo;, Domaine Gaichino, Savoie, 2022"
       type: drink
+    - description: "Our Bread, Our Butters, Game Broth, Potted Game"
       space: true
-    - description: "Our Bread, Raw Butters"
-    - description: "Bird Liver, Peanut, Redcurrant"
-    - description: "Oliver Zeter Grauburgunder, Pfalz"
+    - description: "&ldquo;Les Traverses&rdquo;, Domaine De Courbissac, Languedoc, 2021"
       type: drink
+    - description: "Beet Soup"
+    - description: "Waldorf Salad"
       space: true
-    - description: "Porthilly Oyster, Blackberry, Bramley"
-    - description: "Mackerel, Summer Pickles, Nasturtium"
-    - description: "Brill, Potato, Angelica"
-    - description: "Lautarul Pinot Noir, Romania"
+    - description: "Poucet, Chateau Del Ranq, Languedoc, 2023"
       type: drink
+    - description: "Partridge, Carrot Mole"
+    - description: "Mushroom Chawanmushi"
       space: true
-    - description: "Raised Bed Carrot, Very Good Cream, Honey"
-    - description: "Partridge, Barley Tea, Smoked Date"
-    - description: "Mushroom Chawanmushi, Giroles, Rye"
-    - description: "Colinas Do Douro Superior, Douro"
+    - description: "&ldquo;Abstèmes S'abstenir&rdquo;, Domaine Cosse Maisonneuve, Pyarssac, 2016"
       type: drink
+    - description: "1 Year Aged Cull Cow, Horseradish"
+    - description: "Woodcock"
       space: true
-    - description: "Hare, Pear, Damson"
-    - description: "Mutton, Turnip, Myrtle"
-    - description: "Teal, Barley, Blackcurrant"
+    - description: "&ldquo;Ocrement-dit&rdquo;, Clos Terre Kermès, Cahors, 2020"
+      type: drink
+    - description: "Mallard, Turnip, Wasabina"
+    - description: "Sika, Blood Pudding, Currants"
       space: true
     - description: "Silage Ice Cream"
-    - description: "Recioto Della Valpolicella , Italy"
-      type: drink
       space: true
-    - description: "Farm Egg"
-    - description: "Orchard Apple, Brown Cheese, Buttermilk"
-    - description: "Cropwell Bishop Stilton, Langar Honey"
+    - description: "This Side up, Cyril Zangss, Normandy, 2022"
+      type: drink
+    - description: "Ruby Beetroot"
+    - description: "Rhubarb, Swede Custard"
+    - description: "Eccles Cake, Cropwell Bishop Stilton"

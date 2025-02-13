@@ -7,36 +7,6 @@ layout: default
 {% assign textBlocks = page.body.textBlocks %}
 {% assign imagesBlock = page.body.imagesBlock %}
 
-{% comment %}
-  {% if hero %}
-    <!-- START: Hero -->
-    {% assign heroClasses = "hero-image hero-image--" | append:hero.image.ar  %}
-    {% if hero.align == 'left' %}
-      {% assign blockClasses = "block w-full lg:self-start xl:self-center relative pt-5 lg:pt-24 xl:top-0 xl:right-12" %}
-    {% else %}
-      {% assign blockClasses = "block w-full lg:self-start xl:self-center relative pt-5 lg:pt-0 xl:top-0 xl:left-12" %}
-    {% endif %}
-    <section class="lg:flex lg:-mx-4 lg:container lg:relative {% if hero.align == 'left' %}lg:justify-end{% endif %} hero">
-      <div class="relative z-10 mt-[175px] md:mt-8 lg:mt-16 lg:flex lg:max-w-7/12 xl:max-w-1/2 {% if hero.align == 'left' %}lg:order-2{% endif %}">
-        
-        {% include image.html url=hero.image.url alt=hero.image.alt fit="crop" lazy="false" width="820" height="547" block_classes=blockClasses classes=heroClasses ar="4:3" lgar=hero.image.ar %}
-        
-      </div>
-      
-      <div class="container -mt-8 md:-mt-24 relative z-10 lg:mt-0 lg:no-container lg:w-auto lg:mx-4 lg:absolute
-        {% if hero.align == 'left' %}
-          lg:order-1 lg:top-1/20
-          {% if hero.image.ar == '3:4'%} lg:left-24 {% else %} lg:left-12 {% endif %}
-        {% else %}
-          lg:bottom-1/20
-          {% if hero.image.ar == '3:4'%} lg:right-24 {% else %} lg:right-12 {% endif %}
-        {% endif %}">
-        <h1 class="awks:max-w-75vw lg:max-w-7/12 xl:max-w-2/3 {% if hero.align == 'right' %} ml-auto {% endif %}">{{ hero.text | widont }}</h1>
-      </div>
-    </section>
-    <!-- END: Hero -->
-  {% endif %}
-{% endcomment %}
 
 {% if hero %}
   <!-- START: Hero -->
@@ -177,8 +147,8 @@ layout: default
 {% if page.url == "/food" %}
   {% if site.data.menus.size %}
   <!-- START: Menus -->
-  <section class="container b-beige c-black pt-12 pb-[300px] md:pb-[240px] bg-leaf-orange">
-    <div class="lg:w-5/6 lg:mx-auto">
+  <section class="container b-beige c-black pt-12 pb-[300px] md:pb-[240px] bg-leaf-orange relative md:z-30">
+    <div class="lg:w-5/6 lg:mx-auto relative">
       <h2>Sample Menu{% if site.data.menus.size > 1%}s{% endif %}</h2>
       <p class="xl:max-w-7/12">Our menu changes based on what is seasonal and fresh, please see our sample menu to provide an idea of the format.</p>
       <div data-tabs>
@@ -195,8 +165,9 @@ layout: default
           {% endif %}
           <div id="menu-{{ forloop.index }}">
             <div class="md:flex md:justify-between md:mb-12">
-              <div class="font-type text-base md:text-md mb-6 md:order-2">
-                {{ menu.cost | newline_to_br }}
+              <div class="font-type text-base md:text-md mb-6 md:order-2 md:sticky md:top-8 md:self-start">
+                {{ menu.cost | newline_to_br }}<br><br>
+                <a href="https://booking.resdiary.com/widget/Standard/RestaurantJericho/37740" target="_blank" class="link link--dark-orange">Make a reservation</a>
               </div>
               <ul class="mb-12 font-extralight text-base md:text-md">
               {% for course in menu.courses %}

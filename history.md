@@ -31,30 +31,30 @@ Committed to individuality, they give a warm and honest welcome to every guest."
               alt: "Tending to the kitchen garden"
               orientation: portrait
           flip: true
-        - heading: "Restaurant Jericho"
-          text: "Self taught, Rich and Grace have created a beautiful space using materials salvaged from Jericho Farm.
-Having learnt the industry over the last 7 years they opened Jericho in 2022.
+#         - heading: "Restaurant Jericho"
+#           text: "Self taught, Rich and Grace have created a beautiful space using materials salvaged from Jericho Farm.
+# Having learnt the industry over the last 7 years they opened Jericho in 2022.
 
 
-Committed to individuality, they give a warm and honest welcome to every guest."
-          images:
-            - url: Jericho_001.jpg
-              alt: "Restaurant Jericho internal"
-              orientation: landscape
-            - url: Jericho-Timmy-03.jpeg
-              alt: "Tending to the kitchen garden"
-              orientation: portrait
-    imagesBlock:
-        images:
-            - url: Jericho-History-006.jpg
-              alt: "Rich and his dad at Farm Jericho"
-              ar: "6:4"
-            - url: Jericho-History-004.jpg
-              alt: "Rich at Farm Jericho"
-              ar: "6:4"
-            - url: Jericho-History-007.jpg
-              alt: "Farm Jericho"
-              ar: "6:4"
+# Committed to individuality, they give a warm and honest welcome to every guest."
+#           images:
+#             - url: Jericho_001.jpg
+#               alt: "Restaurant Jericho internal"
+#               orientation: landscape
+#             - url: Jericho-Timmy-03.jpeg
+#               alt: "Tending to the kitchen garden"
+#               orientation: portrait
+#     imagesBlock:
+#         images:
+#             - url: Jericho-History-006.jpg
+#               alt: "Rich and his dad at Farm Jericho"
+#               ar: "6:4"
+#             - url: Jericho-History-004.jpg
+#               alt: "Rich at Farm Jericho"
+#               ar: "6:4"
+#             - url: Jericho-History-007.jpg
+#               alt: "Farm Jericho"
+#               ar: "6:4"
 seo:
     title: "History"
     description: "A farm upbringing instils practicality and passion, a stubborn resolve and the creativity to use what we have got. A 200 year history farming Jericho inspired the restaurant and drives our passion for humble and honest hospitality."

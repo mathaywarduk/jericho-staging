@@ -1,0 +1,30 @@
+.form-field {
+  @apply
+    flex
+    flex-wrap
+  ;
+}
+
+
+.form-field input.mce_inline_error {
+  @apply
+    br-orange
+  ;
+}
+
+
+.input {
+  @apply
+    p-2
+    flex-grow
+    appearance-none
+    rounded-none
+    rounded-l-sm
+    br-white
+    c-grey-dark
+  ;
+}
+
+.input::placeholder {
+
+}

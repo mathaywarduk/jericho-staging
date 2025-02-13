@@ -23,6 +23,7 @@ module.exports = {
     screens: {
       sm: "375px",
       awks: "484px",
+      smmd: "600px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
@@ -37,6 +38,7 @@ module.exports = {
       maxWidth: {
         48: "12rem",
         75: "18.75rem",
+        96: "24rem",
         "half-container": "80rem", 
         "container": "160rem", 
         "75vw": "75vw",

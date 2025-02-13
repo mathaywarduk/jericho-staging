@@ -1,6 +1,6 @@
-url: "https://restaurantjericho.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://staging.restaurantjericho.com" # the base hostname & protocol for your site, e.g. http://example.com
 title: "Restaurant Jericho" # the name of your site, e.g. ACME Corp.
-permalink: /journal/:title
+permalink: /blog/:title
 plugins:
   - jekyll-postcss
   - jekyll-minifier

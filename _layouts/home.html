@@ -69,21 +69,43 @@ layout: default
     </div>
   </div>
   <!-- END: Content -->
-  
-  <!-- START: CTA -->
-  <div class="container b-orange c-grey-dark mt-16 mb-24 py-10 text-center
-     md:bg-transparent md:c-beige
-     xl:h-screen xl:my-0 xl:flex xl:items-center">
-    <div class="md:grid md:grid-cols-12 md:gap-4">
-      <div class="md:col-start-3 md:col-end-11 lg:col-start-4 lg:col-end-10">
-        <h2>{{ cta.title }}</h2>
-        <p>{{ cta.text }}</p>
-        <a href="{{ cta.link.path }}" target="{{ cta.link.target }}" class="link link--dark md:link--light">{{ cta.link.text }}</a>
+
+  <!-- START: Mailchimp + Gift vouchers -->
+  <div class="my-24 md:grid md:grid-cols-12 md:gap-4 md:gap-y-32 xxl:gap-y-4 lg:items-start xl:h-screen xxl:items-center md:container">
+    <div class="container md:no-container b-orange c-grey-dark py-10 text-center
+       md:bg-transparent md:c-beige md:col-start-3 md:col-end-11 xxl:col-start-2 xxl:col-end-6">
+      <h2>{{ cta.title }}</h2>
+      <p>{{ cta.text }}</p>
+      <a href="{{ cta.link.path }}" target="{{ cta.link.target }}" class="link link--dark md:link--light">{{ cta.link.text }}</a>
+    </div>
+    <div class="container md:no-container b-green c-beige py-10 text-center
+       md:bg-transparent md:col-start-3 md:col-end-11 xxl:col-start-8 xxl:col-end-12">
+      <h2>Sign up for updates</h2>
+      <p>Get the latest from the farm and be the first to know when we open reservations.</p>
+      <div id="mc_embed_shell">
+        <div id="mc_embed_signup">
+          <form action="https://restaurantjericho.us17.list-manage.com/subscribe/post?u=d48794544bce58ea5c8d6ed0f&amp;id=f9691df7f4&amp;f_id=001c8ee2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group form-field">
+                <label for="mce-EMAIL" class="sr-only">Email Address <span class="asterisk">*</span></label>
+                <input type="email" name="EMAIL" class="required email input" id="mce-EMAIL" placeholder="Your email address" required value="">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+              </div>
+
+              <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display: none;"></div>
+                <div class="response" id="mce-success-response" style="display: none;"></div>
+              </div>
+              <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                <input type="text" name="b_d48794544bce58ea5c8d6ed0f_f9691df7f4" tabindex="-1" value="">
+              </div>
+            </div>
+          </form>
+        </div>
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
       </div>
     </div>
-
   </div>
-
-  <!-- END: CTA -->
+  <!-- END: Mailchimp + Gift vouchers -->
 
 </div>

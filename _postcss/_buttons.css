@@ -1,0 +1,30 @@
+.button {
+  @apply
+    b-orange
+    c-grey-dark
+    p-2
+    font-bold
+    appearance-none
+    rounded-none
+    rounded-r-sm
+    transition-all
+    duration-500
+    ease-in-out
+    cursor-pointer
+  ;
+
+  &:hover,
+  &:focus {
+    @apply
+      b-orange-dark
+      c-beige
+    ;
+  }
+
+  &:active {
+    @apply
+      b-green-dark
+      c-beige
+    ;
+  }
+}

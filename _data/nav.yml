@@ -2,6 +2,8 @@
   url: "/food"
 - title: History
   url: "/history"
+- title: Blog
+  url: "/blog"
 - title: Gift vouchers
   url: "https://restaurantjericho.sumupstore.com/"
   target: "_blank"
